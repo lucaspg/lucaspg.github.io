@@ -72,6 +72,10 @@ a {
     background: #ededed;
 }
 
+.social-icons > a > i {
+    transition: transform 0.2s ease-out;
+}
+
 .social-icons > a > i:hover {
-    animation: bounce 1s;
+    transform: translateY(-5px);
 }
